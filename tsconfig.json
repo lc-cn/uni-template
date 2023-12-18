@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "baseUrl": ".",
+        "module": "ESNext",
+        "lib": ["ES2015","ESNext","DOM"],
+        "types": ["shims-uni.d.ts","components.d.ts"],
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "nodenext",
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+            "@": [
+                "src"
+            ]
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "easycom": {
+        "autoscan": true,
+        "custom": {
+            // uni-ui 规则如下配置
+            "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+        }
+    },
+    "pages": [
+
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "Zhin",
+                "backgroundColor": "#000000",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/user/index",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "backgroundColor": "#000000",
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "登录",
+                "backgroundColor": "#000000",
+                "navigationStyle": "custom"
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "Zhin 管理",
+        "navigationBarBackgroundColor": "#FFFFFF"
+    },
+    "tabBar": {
+        "color": "#808080",
+        "selectedColor": "#1AAD19",
+        "backgroundColor": "#FFFFFF",
+        "fontSize": "28px",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "问答"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "个人中心"
+            }
+        ]
+    }
+}
